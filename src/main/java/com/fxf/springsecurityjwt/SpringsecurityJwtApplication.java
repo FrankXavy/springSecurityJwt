@@ -22,7 +22,7 @@ public class SpringsecurityJwtApplication {
 				new User(101, "fxf", "fxf", "fxf@fxf.com"),
 				new User(102, "user1", "pwd1", "user1@fxf.com"),
 				new User(103, "user2", "pwd2", "user2@fxf.com"),
-				new User(102, "user3", "pwd3", "user3@fxf.com")
+				new User(104, "user3", "pwd3", "user3@fxf.com")
 		).collect(Collectors.toList());
 		repository.saveAll(users);
 	}
